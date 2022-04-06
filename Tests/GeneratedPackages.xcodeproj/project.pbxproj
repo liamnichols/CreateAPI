@@ -81,6 +81,7 @@
 		5353B5CC27FE1E270000D490 /* strip-parent-name-nested-objects-enabled in Frameworks */ = {isa = PBXBuildFile; productRef = 5353B5CB27FE1E270000D490 /* strip-parent-name-nested-objects-enabled */; };
 		5353B5CE27FE1E270000D490 /* test-query-parameters in Frameworks */ = {isa = PBXBuildFile; productRef = 5353B5CD27FE1E270000D490 /* test-query-parameters */; };
 		5353B5D027FE1E270000D490 /* uber in Frameworks */ = {isa = PBXBuildFile; productRef = 5353B5CF27FE1E270000D490 /* uber */; };
+		5353B5D327FE1F6F0000D490 /* AppStoreConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 5353B5D227FE1F6F0000D490 /* AppStoreConnect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +123,7 @@
 		5353B55D27FE1DFC0000D490 /* petstore-only-schemas */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "petstore-only-schemas"; path = "CreateAPITests/Expected/petstore-only-schemas"; sourceTree = "<group>"; };
 		5353B55E27FE1DFC0000D490 /* OctoKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OctoKit; path = CreateAPITests/Expected/OctoKit; sourceTree = "<group>"; };
 		5353B55F27FE1DFC0000D490 /* edgecases-indent-with-two-width-spaces */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "edgecases-indent-with-two-width-spaces"; path = "CreateAPITests/Expected/edgecases-indent-with-two-width-spaces"; sourceTree = "<group>"; };
+		5353B5D127FE1F690000D490 /* AppStoreConnect */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppStoreConnect; path = CreateAPITests/Expected/AppStoreConnect; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				5353B5C427FE1E270000D490 /* petstore-some-entities-as-classes in Frameworks */,
 				5353B5BC27FE1E260000D490 /* petstore-generate-classes in Frameworks */,
 				5353B5AA27FE1E260000D490 /* petstore-change-namespace-when-operations-style in Frameworks */,
+				5353B5D327FE1F6F0000D490 /* AppStoreConnect in Frameworks */,
 				5353B5CC27FE1E270000D490 /* strip-parent-name-nested-objects-enabled in Frameworks */,
 				5353B5AC27FE1E260000D490 /* petstore-change-namespace-when-rest-style in Frameworks */,
 				5353B5BE27FE1E270000D490 /* petstore-only-schemas in Frameworks */,
@@ -175,6 +178,7 @@
 		0C612D6D2777AFD5008D32A4 = {
 			isa = PBXGroup;
 			children = (
+				5353B5D127FE1F690000D490 /* AppStoreConnect */,
 				5353B54B27FE1DFC0000D490 /* cookpad */,
 				5353B55827FE1DFC0000D490 /* discriminator */,
 				5353B54A27FE1DFC0000D490 /* edgecases-change-access-control */,
@@ -297,6 +301,7 @@
 				5353B5CB27FE1E270000D490 /* strip-parent-name-nested-objects-enabled */,
 				5353B5CD27FE1E270000D490 /* test-query-parameters */,
 				5353B5CF27FE1E270000D490 /* uber */,
+				5353B5D227FE1F6F0000D490 /* AppStoreConnect */,
 			);
 			productName = GeneratedPackages;
 			productReference = 0C612E602777B55A008D32A4 /* GeneratedPackages.framework */;
@@ -740,6 +745,10 @@
 		5353B5CF27FE1E270000D490 /* uber */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = uber;
+		};
+		5353B5D227FE1F6F0000D490 /* AppStoreConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppStoreConnect;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
