@@ -50,4 +50,8 @@ final class GenerateTests: GenerateBaseTests {
     func testCookpad() throws {
         try testSpec(name: "cookpad", ext: "json")
     }
+
+    func testAppStoreConnect() throws {
+        try testSpec(name: "app_store_connect_api_1.8_openapi", ext: "json", package: "AppStoreConnect")
+    }
 }
